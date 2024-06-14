@@ -13,7 +13,7 @@
 			title: 'Success',
 			description: 'Password copied to clipboard successfully',
 			duration: 3000, // 0 or negative to avoid auto-remove
-			placement: 'top-right',
+			placement: 'center-center',
 			showProgress: true,
 			type: 'success',
 			theme: 'light'
