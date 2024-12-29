@@ -1,38 +1,20 @@
-# create-svelte
+[![Docker Publish](https://github.com/santhoshjanan/passwords/actions/workflows/docker-image.yml/badge.svg)](https://github.com/santhoshjanan/passwords/actions/workflows/docker-image.yml) [![Node.js CI](https://github.com/santhoshjanan/passwords/actions/workflows/node.js.yml/badge.svg)](https://github.com/santhoshjanan/passwords/actions/workflows/node.js.yml)
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+#Looking for easy-to-remember strong passwords?
 
-## Creating a project
+This is a simple and straight-forward application which will create easy to remember passwords.
 
-If you're seeing this, you've probably already done this step. Congrats!
+It follows a simple set of rules to ensure it complies with "somewhat" strong password.
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+1. Three words, three letters long
+2. Seperated with periods
+3. Ends with a minus, special character and a two digit number.
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+Example: Six.one.toy-%74, Way.lie.egg-/53, etc...
 
-## Developing
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+PS: This application will not store any data as such.
 
-```bash
-npm run dev
+## Docker
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+You can run this application on your own server by using the docker image: `docker pull moriartee/passwords:latest`
