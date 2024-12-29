@@ -1,6 +1,6 @@
 [![Docker Publish](https://github.com/santhoshjanan/passwords/actions/workflows/docker-image.yml/badge.svg)](https://github.com/santhoshjanan/passwords/actions/workflows/docker-image.yml) [![Node.js CI](https://github.com/santhoshjanan/passwords/actions/workflows/node.js.yml/badge.svg)](https://github.com/santhoshjanan/passwords/actions/workflows/node.js.yml)
 
-#Looking for easy-to-remember strong passwords?
+# Looking for easy-to-remember strong passwords?
 
 This is a simple and straight-forward application which will create easy to remember passwords.
 
